@@ -33,9 +33,9 @@ Last Update: Feb 22, 2019
 
 /* Import Fonts & All CSS */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
 @import url(https://weloveiconfonts.com/api/?family=entypo);
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/default-assets/classy-nav.css);
@@ -52,7 +52,7 @@ Last Update: Feb 22, 2019
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   position: relative;
@@ -65,20 +65,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #252525;
   line-height: 1.3;
   font-weight: 600;
 }
 
-[class^="entypo-"]:before {
-  font-family: "entypo", sans-serif;
+[class^='entypo-']:before {
+  font-family: 'entypo', sans-serif;
 }
 
 #social-sidebar {
   left: 0;
   position: fixed;
   top: 30%;
+  z-index: 2;
 }
 
 #social-sidebar li:first-child a {
@@ -109,7 +110,7 @@ h6 {
 }
 
 #social-sidebar a span {
-  font: 12px "Poppins", sans-serif;
+  font: 12px 'Poppins', sans-serif;
   text-transform: uppercase;
   border-radius: 3px;
   line-height: 24px;
@@ -134,39 +135,39 @@ h6 {
   transform: rotate(45deg);
 }
 
-#social-sidebar a[class*="twitter"]:hover,
-#social-sidebar a[class*="twitter"] span,
-#social-sidebar a[class*="twitter"] span:before {
+#social-sidebar a[class*='twitter']:hover,
+#social-sidebar a[class*='twitter'] span,
+#social-sidebar a[class*='twitter'] span:before {
   background: #00aced;
 }
 
-#social-sidebar a[class*="facebook"]:hover,
-#social-sidebar a[class*="facebook"] span,
-#social-sidebar a[class*="facebook"] span:before {
+#social-sidebar a[class*='facebook']:hover,
+#social-sidebar a[class*='facebook'] span,
+#social-sidebar a[class*='facebook'] span:before {
   background: #3b5998;
 }
 
-#social-sidebar a[class*="gplus"]:hover,
-#social-sidebar a[class*="gplus"] span,
-#social-sidebar a[class*="gplus"] span:before {
+#social-sidebar a[class*='gplus']:hover,
+#social-sidebar a[class*='gplus'] span,
+#social-sidebar a[class*='gplus'] span:before {
   background: #e34429;
 }
 
-#social-sidebar a[class*="instagrem"]:hover,
-#social-sidebar a[class*="instagrem"] span,
-#social-sidebar a[class*="instagrem"] span:before {
+#social-sidebar a[class*='instagrem']:hover,
+#social-sidebar a[class*='instagrem'] span,
+#social-sidebar a[class*='instagrem'] span:before {
   background: #ea4c89;
 }
 
-#social-sidebar a[class*="linkedin"]:hover,
-#social-sidebar a[class*="linkedin"] span,
-#social-sidebar a[class*="linkedin"] span:before {
+#social-sidebar a[class*='linkedin']:hover,
+#social-sidebar a[class*='linkedin'] span,
+#social-sidebar a[class*='linkedin'] span:before {
   background: #0a416e;
 }
 
-#social-sidebar a[class*="github"]:hover,
-#social-sidebar a[class*="github"] span,
-#social-sidebar a[class*="github"] span:before {
+#social-sidebar a[class*='github']:hover,
+#social-sidebar a[class*='github'] span,
+#social-sidebar a[class*='github'] span:before {
   background: #9c7a5b;
 }
 
@@ -215,7 +216,7 @@ ul li {
 
 .bg-overlay::after {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   top: 0;
@@ -238,7 +239,7 @@ ul li {
 .jarallax > .jarallax-img {
   position: absolute;
   object-fit: cover;
-  font-family: "object-fit: cover";
+  font-family: 'object-fit: cover';
   top: 0;
   left: 0;
   width: 100%;
@@ -509,7 +510,7 @@ input:required {
 
 .loader:before,
 .loader:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
 }
@@ -879,7 +880,7 @@ input:required {
   bottom: 7px;
   left: 0;
   z-index: 1;
-  content: "";
+  content: '';
   left: 50%;
   transform: translateX(-50%);
 }
@@ -1276,7 +1277,7 @@ input:required {
 }
 
 .about-video-area .video-icon a::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 0%;
   height: 0%;
@@ -1462,9 +1463,9 @@ input:required {
 }
 
 .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: "\f105";
+  content: '\f105';
   color: #ffffff;
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
 }
 
 .breadcrumb-area.blog {
@@ -1522,7 +1523,7 @@ input:required {
 }
 
 .breadcrumb-area.blog .breadcrumb-content .post-meta a::after {
-  content: "|";
+  content: '|';
   position: absolute;
   top: 0;
   right: -11px;
@@ -1694,7 +1695,7 @@ input:required {
   background-color: rgba(0, 0, 0, 0.7);
   top: 0;
   left: 0;
-  content: "";
+  content: '';
   opacity: 0;
   visibility: hidden;
 }
@@ -1839,7 +1840,7 @@ input:required {
   width: 1px;
   background-color: #ebebeb;
   height: 100%;
-  content: "";
+  content: '';
   top: 0;
   left: 90px;
   z-index: 1;
@@ -1998,7 +1999,7 @@ input:required {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  content: "";
+  content: '';
   z-index: 1;
 }
 
@@ -2058,7 +2059,7 @@ input:required {
 }
 
 .single-post-area .post-content .post-meta a:last-child::after {
-  content: "|";
+  content: '|';
   position: absolute;
   top: 0;
   left: -11px;
@@ -2281,7 +2282,7 @@ input:required {
   width: 0%;
   height: 3px;
   background-color: #fc6060;
-  content: "";
+  content: '';
   bottom: -5px;
   left: 0;
   right: 0;
@@ -2658,7 +2659,7 @@ footer {
 }
 .pricing .cards .card .button1::before {
   background: #fc6060;
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2678,7 +2679,7 @@ footer {
   height: 380%;
 }
 .pricing .cards .card .btn4:hover::after {
-  content: " 🢂";
+  content: ' 🢂';
   color: rgb(255, 255, 255);
 }
 
